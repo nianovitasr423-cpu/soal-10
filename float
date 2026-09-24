@@ -1,0 +1,27 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+int main() {
+    string nama[4]={"miko","mila","niken","anjar"};
+    int nilai1[4]={65,78,90,85};
+    int nilai2[4]={67,75,88,80};
+    int i;
+    float r;
+    for (i=0;i<4;i++)
+        {
+            cout<<"_________________________________"<<endl;
+            cout<<"Nama "<<endl;
+            cout<<nama[1]<<endl;
+            cout<<"Nilai "<<endl;
+            cout<<nilai1[i]<<endl;
+            cout<<nilai2[1]<<endl;
+            cout<<"rata-rata nya adalah "<<endl;
+            r=(nilai1[i]+nilai2[i])/2 ;
+            cout<<r;
+            cout<<"_________________________________"<<endl;
+        }
+    
+    return 0;
+}
